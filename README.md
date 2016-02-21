@@ -8,7 +8,7 @@ Development is done on a Raspberry Pi running the Raspbian "wheezy" distribution
 
 ```bash
     sudo apt-get install bc
-    git clone --depth=1 https://github.com/alkass/linux
+    git clone --depth=1 https://github.com/raspberrypi/linux
     cd linux
     pushd .
     cd drivers/video/fbdev
