@@ -8,7 +8,8 @@ Development is done on a Raspberry Pi running the Raspbian "wheezy" distribution
 
 ```bash
     git clone https://github.com/alkass/linux
-    cd linux/drivers/video/fbdev && git clone https://github.com/alkass/fbtft.git
+    cd linux/drivers/video/fbdev
+    git clone https://github.com/alkass/fbtft.git
     echo 'source "drivers/video/fbdev/fbtft/Kconfig"' >> Kconfig
     echo 'obj-y += fbtft/' >> drivers/video/fbdev/Makefile
 ```
