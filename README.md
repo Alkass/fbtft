@@ -11,5 +11,5 @@ Development is done on a Raspberry Pi running the Raspbian "wheezy" distribution
     cd linux/drivers/video/fbdev
     git clone https://github.com/alkass/fbtft.git
     echo 'source "drivers/video/fbdev/fbtft/Kconfig"' >> Kconfig
-    echo 'obj-y += fbtft/' >> drivers/video/fbdev/Makefile
+    echo 'obj-y += fbtft/' >> Makefile
 ```
