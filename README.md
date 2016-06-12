@@ -4,7 +4,7 @@ The module 'fbtft' makes writing drivers for some of these displays very easy.
 
 Development is done on a Raspberry Pi running the Raspbian "wheezy" distribution.
 
-# Installation
+# Driver Installation
 
 ```bash
     sudo apt-get install bc
